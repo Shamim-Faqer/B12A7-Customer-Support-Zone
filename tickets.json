@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "title": "Login Issue",
+    "description": "Customer cannot log in despite correct credentials, tried multiple devices and browsers. Workflow blocked, needs urgent check of authentication and server response.",
+    "customer": "Rahim",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-01-20T09:30:00Z"
+  },
+  {
+    "id": 2,
+    "title": "Payment Failure",
+    "description": "Valid credit card transaction declined without error message. Possible gateway integration, timeout, or bank verification issue causing customer frustration.",
+    "customer": "Karim",
+    "priority": "Medium",
+    "status": "Done",
+    "createdAt": "2026-01-20T10:00:00Z"
+  },
+  {
+    "id": 3,
+    "title": "UI Bug",
+    "description": "Dashboard buttons misaligned on smaller screens. Layout looks broken though functionality works. Responsive CSS rules need review.",
+    "customer": "Sadia",
+    "priority": "Low",
+    "status": "In Progress",
+    "createdAt": "2026-01-20T11:15:00Z"
+  },
+  {
+    "id": 4,
+    "title": "Email Not Sent",
+    "description": "Order confirmation email not received. Customer checked spam folders. SMTP configuration and email queue need investigation.",
+    "customer": "Jamal",
+    "priority": "High",
+    "status": "Done",
+    "createdAt": "2026-01-20T12:00:00Z"
+  },
+  {
+    "id": 5,
+    "title": "Slow Performance",
+    "description": "Website loads slowly during peak hours. Customers face delays navigating and submitting forms. Possible server overload or heavy scripts.",
+    "customer": "Nusrat",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-01-20T13:20:00Z"
+  },
+  {
+    "id": 6,
+    "title": "Mobile App Crash",
+    "description": "App crashes immediately on launch for several Android devices. Users cannot reach login screen. Crash logs need review.",
+    "customer": "Imran",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-01-20T14:00:00Z"
+  },
+  {
+    "id": 7,
+    "title": "Password Reset",
+    "description": "Password reset link shows expired or invalid page. Users cannot regain access. Token expiration and reset URL need testing.",
+    "customer": "Farhana",
+    "priority": "Medium",
+    "status": "Done",
+    "createdAt": "2026-01-20T15:10:00Z"
+  },
+  {
+    "id": 8,
+    "title": "Search Error",
+    "description": "Search feature fails to show complete results. Relevant data missing despite correct keywords. Backend query logic needs review.",
+    "customer": "Rafiq",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-01-20T16:00:00Z"
+  },
+  {
+    "id": 9,
+    "title": "Data Sync Issue",
+    "description": "Updates on one device not appearing on another. Causes confusion and outdated info. Possible API sync or caching problem.",
+    "customer": "Mitu",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-01-20T17:30:00Z"
+  },
+  {
+    "id": 10,
+    "title": "Notification Delay",
+    "description": "Push notifications delivered minutes late instead of instantly. Time-sensitive alerts affected. Server queue or job scheduling issue suspected.",
+    "customer": "Shuvo",
+    "priority": "Medium",
+    "status": "Done",
+    "createdAt": "2026-01-20T18:00:00Z"
+  },
+  {
+    "id": 11,
+    "title": "Broken Link",
+    "description": "Help page link leads to missing page. Users cannot access support docs. Routing and deployment paths need correction.",
+    "customer": "Tania",
+    "priority": "Low",
+    "status": "Done",
+    "createdAt": "2026-01-20T19:00:00Z"
+  },
+  {
+    "id": 12,
+    "title": "Invoice Error",
+    "description": "Invoice shows incorrect total compared to payment. Causes confusion and trust issues. Tax and discount logic need review.",
+    "customer": "Hasan",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-01-20T20:00:00Z"
+  },
+  {
+    "id": 13,
+    "title": "Profile Update Issue",
+    "description": "Profile changes not saved. Old data reappears after refresh. Possible API failure or validation error in update endpoint.",
+    "customer": "Rina",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-01-20T21:00:00Z"
+  },
+  {
+    "id": 14,
+    "title": "File Upload Error",
+    "description": "Users cannot upload documents. Error shown after file selection. File size limits or server permissions may be cause.",
+    "customer": "Sohel",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-01-20T22:00:00Z"
+  },
+  {
+    "id": 15,
+    "title": "Logout Problem",
+    "description": "Logout button fails to end session. Account remains logged in after refresh. Session handling and token invalidation need review.",
+    "customer": "Nabila",
+    "priority": "Medium",
+    "status": "Done",
+    "createdAt": "2026-01-20T23:00:00Z"
+  }
+]
