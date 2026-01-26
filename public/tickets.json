@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Login Issue",
-    "description": "The customer reported that they are unable to log into the system even after entering the correct username and password. They tried multiple times and also attempted from different browsers and devices, but the issue still persists. This problem is affecting their daily workflow and preventing them from accessing important features. Immediate investigation is required to verify authentication services, server response, and possible account lock mechanisms.",
+    "description": "Customer cannot log in despite correct credentials, tried multiple devices and browsers. Workflow blocked, needs urgent check of authentication and server response.",
     "customer": "Rahim",
     "priority": "High",
     "status": "In Progress",
@@ -11,7 +11,7 @@
   {
     "id": 2,
     "title": "Payment Failure",
-    "description": "The customer experienced a payment failure while attempting to complete a transaction using a credit card. Although the card was valid and had sufficient balance, the transaction was declined without a clear error message. This has caused confusion and frustration for the customer. The issue may be related to payment gateway integration, timeout problems, or bank verification errors.",
+    "description": "Valid credit card transaction declined without error message. Possible gateway integration, timeout, or bank verification issue causing customer frustration.",
     "customer": "Karim",
     "priority": "Medium",
     "status": "Done",
@@ -20,7 +20,7 @@
   {
     "id": 3,
     "title": "UI Bug",
-    "description": "A visual issue has been reported on the dashboard where buttons are not properly aligned on certain screen sizes. The layout appears broken especially on smaller laptops and tablets. Although the functionality works correctly, the poor alignment affects user experience and professional appearance. The frontend layout and responsive CSS rules should be reviewed and corrected.",
+    "description": "Dashboard buttons misaligned on smaller screens. Layout looks broken though functionality works. Responsive CSS rules need review.",
     "customer": "Sadia",
     "priority": "Low",
     "status": "In Progress",
@@ -29,7 +29,7 @@
   {
     "id": 4,
     "title": "Email Not Sent",
-    "description": "The customer did not receive the order confirmation email after successfully placing an order. They checked spam and promotion folders but found nothing. This issue may reduce customer trust and cause uncertainty about order completion. The email service configuration, SMTP logs, and email queue processing system need to be reviewed carefully.",
+    "description": "Order confirmation email not received. Customer checked spam folders. SMTP configuration and email queue need investigation.",
     "customer": "Jamal",
     "priority": "High",
     "status": "Done",
@@ -38,7 +38,7 @@
   {
     "id": 5,
     "title": "Slow Performance",
-    "description": "The website is taking an unusually long time to load pages, especially during peak usage hours. Customers reported delays when navigating between pages and submitting forms. This performance issue negatively impacts user satisfaction and may increase bounce rate. Possible causes include server overload, unoptimized images, heavy scripts, or database query delays.",
+    "description": "Website loads slowly during peak hours. Customers face delays navigating and submitting forms. Possible server overload or heavy scripts.",
     "customer": "Nusrat",
     "priority": "High",
     "status": "In Progress",
@@ -47,7 +47,7 @@
   {
     "id": 6,
     "title": "Mobile App Crash",
-    "description": "The mobile application crashes immediately after launch on several Android devices. Users are unable to reach the login screen and the app closes automatically. This issue prevents any usage of the mobile platform. Crash logs and recent app updates should be analyzed to identify compatibility or memory-related problems.",
+    "description": "App crashes immediately on launch for several Android devices. Users cannot reach login screen. Crash logs need review.",
     "customer": "Imran",
     "priority": "High",
     "status": "In Progress",
@@ -56,7 +56,7 @@
   {
     "id": 7,
     "title": "Password Reset",
-    "description": "The password reset link sent to the user's email is not functioning correctly. When clicking the link, it either shows an expired message or redirects to an invalid page. This prevents users from regaining account access. Token expiration logic and reset URL configuration should be carefully tested and fixed.",
+    "description": "Password reset link shows expired or invalid page. Users cannot regain access. Token expiration and reset URL need testing.",
     "customer": "Farhana",
     "priority": "Medium",
     "status": "Done",
@@ -65,7 +65,7 @@
   {
     "id": 8,
     "title": "Search Error",
-    "description": "Users reported that the search feature is not displaying accurate or complete results. Some relevant data does not appear even when correct keywords are used. This problem reduces usability and makes information difficult to find. The backend search query logic and indexing mechanism should be reviewed.",
+    "description": "Search feature fails to show complete results. Relevant data missing despite correct keywords. Backend query logic needs review.",
     "customer": "Rafiq",
     "priority": "Low",
     "status": "Open",
@@ -74,7 +74,7 @@
   {
     "id": 9,
     "title": "Data Sync Issue",
-    "description": "The customer noticed that data updates made on one device are not appearing on another device. This inconsistency causes confusion and risk of outdated information. The issue may involve API synchronization delays, caching problems, or background sync failures that must be investigated immediately.",
+    "description": "Updates on one device not appearing on another. Causes confusion and outdated info. Possible API sync or caching problem.",
     "customer": "Mitu",
     "priority": "High",
     "status": "In Progress",
@@ -83,7 +83,7 @@
   {
     "id": 10,
     "title": "Notification Delay",
-    "description": "Push notifications are being delivered several minutes late instead of instantly. This affects time-sensitive alerts and reduces effectiveness of the notification system. The issue may be related to server queue delays, background job scheduling, or third-party notification services configuration.",
+    "description": "Push notifications delivered minutes late instead of instantly. Time-sensitive alerts affected. Server queue or job scheduling issue suspected.",
     "customer": "Shuvo",
     "priority": "Medium",
     "status": "Done",
@@ -92,7 +92,7 @@
   {
     "id": 11,
     "title": "Broken Link",
-    "description": "The help page link on the website leads to a broken or missing page. Users are unable to access support documentation when needed. This reduces overall usability and creates frustration. The routing configuration and deployment paths should be verified and corrected promptly.",
+    "description": "Help page link leads to missing page. Users cannot access support docs. Routing and deployment paths need correction.",
     "customer": "Tania",
     "priority": "Low",
     "status": "Done",
@@ -101,7 +101,7 @@
   {
     "id": 12,
     "title": "Invoice Error",
-    "description": "The invoice generated after purchase shows an incorrect total amount that does not match the actual payment. This creates confusion and may cause trust issues with customers. The tax calculation and discount logic should be reviewed thoroughly to ensure financial accuracy.",
+    "description": "Invoice shows incorrect total compared to payment. Causes confusion and trust issues. Tax and discount logic need review.",
     "customer": "Hasan",
     "priority": "High",
     "status": "In Progress",
@@ -110,7 +110,7 @@
   {
     "id": 13,
     "title": "Profile Update Issue",
-    "description": "The user attempted to update their profile information, but changes were not saved successfully. After refreshing the page, old data reappeared. This issue may be related to API failure or validation errors. The profile update endpoint and form handling logic require investigation.",
+    "description": "Profile changes not saved. Old data reappears after refresh. Possible API failure or validation error in update endpoint.",
     "customer": "Rina",
     "priority": "Medium",
     "status": "Open",
@@ -119,7 +119,7 @@
   {
     "id": 14,
     "title": "File Upload Error",
-    "description": "Users are unable to upload documents through the file upload feature. The system displays an error after selecting the file. This affects document submission workflows. File size limits, server permissions, and upload API responses should be checked carefully.",
+    "description": "Users cannot upload documents. Error shown after file selection. File size limits or server permissions may be cause.",
     "customer": "Sohel",
     "priority": "High",
     "status": "In Progress",
@@ -128,7 +128,7 @@
   {
     "id": 15,
     "title": "Logout Problem",
-    "description": "Some users reported that clicking the logout button does not properly end the session. After refreshing the page, the account remains logged in. This may pose security risks. Session handling, token invalidation, and cookie management logic must be reviewed immediately.",
+    "description": "Logout button fails to end session. Account remains logged in after refresh. Session handling and token invalidation need review.",
     "customer": "Nabila",
     "priority": "Medium",
     "status": "Done",
