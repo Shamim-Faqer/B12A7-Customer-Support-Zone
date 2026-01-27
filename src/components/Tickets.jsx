@@ -7,7 +7,7 @@ function Tickets() {
     const [cards, setCards] = useState([]);
 
     useEffect(() => {
-        fetch("/tickets.json")
+        fetch(`${import.meta.env.Base_URL}tickets.json`)
          .then(res => res.json())
          .then(data => setCards(data));
     },[]);
@@ -16,7 +16,7 @@ function Tickets() {
       <div className='grid grid-cols-1 md:grid-cols-3 gap-6 p-6'>
         
         
-        <div className='md:col-span-2'>
+        <div className='col-span-1 md:col-span-2'>
               <TicketGrid cards={cards} />
         </div>
         <div className='md:col-span-1'>
