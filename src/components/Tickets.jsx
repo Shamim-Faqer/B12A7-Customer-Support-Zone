@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import TicketGrid from './TicketGrid';
 import TaskGrid from './TaskGrid';
+import Banner from './Banner';
 
 function Tickets() {
 
@@ -13,9 +14,10 @@ function Tickets() {
     },[]);
 
     return (
-      <div className='grid grid-cols-1 md:grid-cols-3 gap-6 p-6'>
-        
-        
+      <div>
+          <Banner cards={cards} />
+          
+        <div className='grid grid-cols-1 md:grid-cols-3 gap-6 p-6'>
         <div className='col-span-1 md:col-span-2'>
               <TicketGrid cards={cards} />
         </div>
@@ -25,6 +27,7 @@ function Tickets() {
 
 
 
+      </div>
       </div>
     )
 

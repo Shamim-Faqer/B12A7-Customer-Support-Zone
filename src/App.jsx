@@ -7,7 +7,7 @@ import Tickets from './components/Tickets';
  function App() {
   return(<div>
         <Header></Header>
-        <Banner></Banner>
+
         <Tickets></Tickets>
         <Footer></Footer>
   </div>)
