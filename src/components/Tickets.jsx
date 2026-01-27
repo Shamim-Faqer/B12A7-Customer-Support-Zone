@@ -7,7 +7,7 @@ function Tickets() {
     const [cards, setCards] = useState([]);
 
     useEffect(() => {
-        fetch(`${import.meta.env.Base_URL}tickets.json`)
+        fetch(import.meta.env.Base_URL + "tickets.json")
          .then(res => res.json())
          .then(data => setCards(data));
     },[]);
