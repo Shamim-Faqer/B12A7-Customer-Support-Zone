@@ -9,7 +9,7 @@ function Banner({ cards = [] }) {
   ).length;
 
   return (
-    <div className="flex gap-6 p-6 py-16">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 p-6 py-16">
 
       {/* In Progress */}
       <div className="relative w-full h-48 flex items-center justify-center text-white shadow-md rounded-lg overflow-hidden">

@@ -1,6 +1,6 @@
 
 
-const TicketGrid = ({cards}) => {
+const TicketGrid = ({cards, onSelect}) => {
   
   const statusBadge = (status) => {
     if (status === "Done") return "badge-success";
@@ -21,7 +21,7 @@ const TicketGrid = ({cards}) => {
   
   return (<div className='grid grid-cols-1 md:grid-cols-2 gap-6 p-6'>
     {
-          cards.map((card)=> (<div key={card.id} className='card card-border shadow-xl bg-base-200 w-96'>
+          cards.map((card)=> (<div key={card.id} onClick={()=>onSelect(card)} className='card w-full card-border shadow-xl bg-base-200'>
           <div className='card-body'>
           
            <div className='flex justify-between'>

@@ -5,7 +5,7 @@
 import Tickets from './components/Tickets';
  
  function App() {
-  return(<div>
+  return(<div className='max-w-7xl mx-auto px-4'>
         <Header></Header>
 
         <Tickets></Tickets>

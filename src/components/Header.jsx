@@ -3,7 +3,7 @@ import React from 'react'
 function Header() {
   return (
     <div>
-      <div className="navbar bg-base-100 shadow-sm flex flex-col md:flex-row">
+      <div className="navbar bg-base-100 shadow-sm flex flex-col md:flex-row justify-between items-center">
   <div className="flex-1">
     <a className="btn btn-ghost text-xl">CS — Ticket System</a>
   </div>
