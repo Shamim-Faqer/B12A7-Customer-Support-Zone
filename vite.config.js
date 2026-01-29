@@ -1,11 +1,12 @@
 import { defineConfig } from "vite";
-import tailwindcss from "@tailwindcss/vite";
 import react from "@vitejs/plugin-react";
+import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
-  plugins: [tailwindcss(), react()],
+  plugins: [react(), tailwindcss()],
+  base: "/B12A7-Customer-Support-Zone/",
   server: {
-  allowedHosts: 'all'
-},
-  base: "/B12A7-Customer-Support-Zone/"
+    // Development only: সব host allow
+    allowedHosts: 'all'
+  }
 });
