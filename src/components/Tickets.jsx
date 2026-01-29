@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import TicketGrid from './TicketGrid';
 import TaskGrid from './TaskGrid';
 import Banner from './Banner';
+import { toast } from 'react-toastify';
 
 function Tickets() {
 
@@ -15,18 +16,28 @@ function Tickets() {
     },[]);
 
     const handleSelect = (ticket) => {
+      if (ticket.status === "Done") {
+        toast.error("This ticket is already resolved");
+        return;
+      }
+      
       setTasks(prev => {
         const exits = prev.find(t => t.id === ticket.id);
-        if (exits) return prev;
-        return [...prev, ticket];
+
+        if (exits) {
+          toast.info("Ticket already in task list");
+          return prev;
+        }
+        toast.success("Ticket added to task");
+        return[...prev,ticket]; 
       });
-    };
+      };
 
       const handleComplete = (id) => {
         setCards(prev => prev.map(card => card.id === id ? {...card, status: "Done"} : card));
         setTasks(prev => prev.filter(task => task.id !== id));
 
-        alert("Task Completed");
+        toast.success("Ticket resolved");
       };
 
 

@@ -1,12 +1,12 @@
 function Banner({ cards = [] }) {
 
-  const inProgressNo = cards.filter(
+  const inProgressNo = cards?.filter(
     card => card.status === "In Progress"
-  ).length;
+  ).length || 0;
 
-  const resolvedNo = cards.filter(
+  const resolvedNo = cards?.filter(
     card => card.status === "Done"
-  ).length;
+  ).length || 0;
 
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 p-6 py-16">
