@@ -4,5 +4,8 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [tailwindcss(), react()],
+  server: {
+  allowedHosts: 'all'
+},
   base: "/B12A7-Customer-Support-Zone/"
 });
