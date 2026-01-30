@@ -1,16 +1,22 @@
-# React + Vite
+- What is JSX, and why is it used?
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  jsx is a javascript syntax extension that build with mixture of HTML & JavaScript. It makes code clean & readable as well as help coders to write shorten codes.
 
-Currently, two official plugins are available:
+- What is the difference between State and Props?
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  State is the changeable data of component that works on component only,
+  On the other hand Props is the read-only data that comes from different parent component
 
-## React Compiler
+- What is the useState hook, and how does it work?
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+  useState is a react built in hooks that help us to keep values, It takes a initial value and return state value and a function that updates the value.
 
-## Expanding the ESLint configuration
+- How can you share state between components in React?
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  By lifting state up or even by contex api, we can share state between components in react
+
+- How is event handling done in React?
+
+  It is same as event handling in javascript, Only the differences is,
+  Use onClick instead of onclick,
+  use {} on value side like, onClick={handleClick}
