@@ -11,7 +11,7 @@ function Banner({ cards = [] }) {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 p-6 py-16">
 
-      {/* In Progress */}
+
       <div className="relative w-full h-48 flex items-center justify-center text-white shadow-md rounded-lg overflow-hidden">
 
         <div className="absolute inset-0 bg-gradient-to-r from-[#632EE3] to-[#9F62F2]"></div>
@@ -24,7 +24,7 @@ function Banner({ cards = [] }) {
 
       </div>
 
-      {/* Resolved */}
+
       <div className="relative w-full h-48 flex items-center justify-center text-white shadow-md rounded-lg overflow-hidden">
 
         <div className="absolute inset-0 bg-gradient-to-r from-[#54CF68] to-[#00827A]"></div>
