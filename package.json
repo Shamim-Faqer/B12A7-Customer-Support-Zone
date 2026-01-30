@@ -4,16 +4,12 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+  "predeploy:gh": "cross-env DEPLOY_ENV=GH_PAGES npm run build && copy dist\\index.html dist\\404.html",
+  "deploy:gh": "npm run predeploy:gh && gh-pages -d dist",
   "dev": "vite",
   "build": "vite build",
-  "preview": "vite preview",
-
-  "predeploy:gh": "DEPLOY_ENV=GH_PAGES npm run build",
-  "deploy:gh": "npm run predeploy:gh && gh-pages -d dist",
-
-  "predeploy:netlify": "npm run build"
+  "preview": "vite preview"
 },
-
   "dependencies": {
     "@tailwindcss/line-clamp": "^0.4.4",
     "@tailwindcss/vite": "^4.1.18",
@@ -29,6 +25,7 @@
     "@types/react": "^19.2.5",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^5.1.1",
+    "cross-env": "^10.1.0",
     "eslint": "^9.39.1",
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.4.24",
