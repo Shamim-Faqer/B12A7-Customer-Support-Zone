@@ -1,24 +1,20 @@
-import { Routes, Route } from "react-router-dom";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Banner from "./components/Banner";
-import Tickets from "./components/Tickets";
-import { ToastContainer } from "react-toastify";
+ import './App.css'
 
-function App() {
-  return (
-    <div className="max-w-7xl mx-auto px-4">
-      <Header />
+ import Header from './components/Header';
+ import Footer from './components/Footer';
+ import Banner from './components/Banner';
+import Tickets from './components/Tickets';
+import {ToastContainer} from "react-toastify";
 
-      <Routes>
-        <Route path="/" element={<Banner />} />
-        <Route path="/tickets" element={<Tickets />} />
-      </Routes>
+ 
+ function App() {
+  return(<div className='max-w-7xl mx-auto px-4'>
+        <Header></Header>
 
-      <Footer />
-      <ToastContainer />
-    </div>
-  );
-}
+        <Tickets></Tickets>
+        <Footer></Footer>
+        <ToastContainer></ToastContainer>
+  </div>)
+ }
 
-export default App;
+ export default App;
