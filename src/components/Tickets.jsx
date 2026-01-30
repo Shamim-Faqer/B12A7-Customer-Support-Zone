@@ -10,7 +10,7 @@ function Tickets() {
     const [tasks, setTasks] = useState([]);
 
     useEffect(() => {
-        fetch(import.meta.env.BASE_URL + "tickets.json")
+        fetch("/tickets.json")
          .then(res => res.json())
          .then(data => setCards(data));
     },[]);
